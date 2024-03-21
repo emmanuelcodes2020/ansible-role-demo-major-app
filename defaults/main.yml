@@ -1,0 +1,4 @@
+---
+# defaults file for ansible-role-major-app
+major_app_s3_url: s3://strongerbucket-s3s3/index.html
+major_app_destinationa_dir: /var/www/html 

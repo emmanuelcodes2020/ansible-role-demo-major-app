@@ -1,0 +1,6 @@
+---
+# handlers file for ansible-role-major-app
+- name: Restart httpd server
+  service:
+    name: httpd
+    state: restarted

@@ -1,0 +1,6 @@
+--- 
+- name: Copy html file from s3 bucket
+  command: 
+    aws s3 cp "{{ major_app_s3_url }}" "{{ major_app_destinationa_dir }}"
+
+  notify: Restart httpd server

@@ -1,0 +1,4 @@
+---
+# tasks file for ansible-role-major-app
+  - name: Copy app content to the server 
+    include_tasks: prepare.yml
